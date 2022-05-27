@@ -7,7 +7,7 @@ function Header() {
     <header>
       <div>
         <img src={logo} alt="logo" />
-        <Link className='button' to="/">Inicío</Link>
+        <Link className='button' to="/">Início</Link>
       </div>
     </header>
   )
