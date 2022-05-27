@@ -1,0 +1,110 @@
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  margin: 0 auto;
+  gap: 50px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 30px 0px;
+  text-align: left;
+}
+
+.logo img {
+  width: 130px;
+  align-self: center;
+}
+
+.logo h1 {
+  color: white;
+  text-align: left;
+  font-size: 1.5rem;
+  margin: 40px 0px 0px 0px;
+}
+
+.logo p {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.buttonInitial {
+  margin-top: 30px;
+  background-color: #FD377E;
+  transition: 0.3s;
+  padding: 13px 20px;
+  color: white;
+  border-radius: 8px;
+  border: 2px solid #FD377E;
+  text-decoration: none;
+  text-align: center;
+}
+
+.buttonInitial:hover {
+  cursor: pointer;
+  background-color: #E34981;
+  border: 2px solid #E34981;
+}
+
+.imgInitial img {
+  width: 350px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 650px) {
+  main {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .logo img {
+    align-self: start;
+  }
+}
+
+@media (min-width: 750px) {
+  main {
+    gap: 0px 50px;
+  }
+
+  .imgInitial img {
+    width: 450px;
+  }
+}
+
+@media (min-width: 900px) {
+  main {
+    gap: 0px 100px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .logo {
+    width: 400px;
+  }
+
+  .logo img {
+    width: 180px;
+  }
+
+  .logo h1 {
+    font-size: 2rem;
+  }
+
+  .logo p {
+    font-size: 1rem;
+  }
+
+  .buttonInitial {
+    width: 180px;
+  }
+
+  .imgInitial img {
+    width: 550px;
+  }
+}

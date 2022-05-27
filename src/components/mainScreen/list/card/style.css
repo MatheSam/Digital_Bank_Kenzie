@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card>h1 {
+  font-size: 1.4rem;
+  margin-bottom: 0px;
+  color: #5B6166;
+}
+
+.cardContainer {
+  display: flex;
+  background-color: #F8F9FA;
+  border-radius: 4px;
+  padding: 0px 10px;
+  justify-content: space-between;
+}
+
+.cardContainer:first-child {
+  margin-top: 40px;
+}
+
+.cardContainer>div {
+  text-align: left;
+}
+
+.valor {
+  display: flex;
+  align-items: flex-start;
+}
+
+.valor h4 {
+  margin: 0px;
+}
+
+.deleteIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.deleteIcon:hover {
+  cursor: pointer;
+}
+
+.noTransitions {
+  width: 350px;
+}
+
+@media (min-width: 1200px) {
+  .noTransitions {
+    width: 500px;
+  }
+}
